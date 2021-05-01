@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="UTF-8">	
+	<style  type="text/css">
+	
+		img {
+			width:100%;
+			height:100%;
+		}
+		
+		#aviso-movil-horizontal { display: none; }
+		@media only screen and (orientation:portrait) {
+			#wrapper { display:none; }
+			#aviso-movil-horizontal { display:block; }
+		}
+		@media only screen and (orientation:landscape) {
+			#aviso-movil-horizontal { display:none; }
+		}
+
+	</style>
+</head>	
+ 
+<body>
+	<div id="wrapper">
+		<img src="planes.png"></br>		
+	</div>
+
+	<div id="aviso-movil-horizontal">
+			<img src="planes_celu.png">
+	</div>
+</body>
+</html>
